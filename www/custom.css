@@ -1,0 +1,173 @@
+/* Custom CSS for Kenya Health Facility Assessment App */
+/* Author: Cavin Otieno */
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F5F5F5;
+}
+
+/* Navigation bar styling */
+.navbar {
+  background-color: #2E86AB !important;
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #1B5E78 !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #1B5E78 !important;
+}
+
+/* Stat card styling */
+.stat-card {
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.stat-card h5 {
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.stat-card h3 {
+  font-size: 28px;
+  margin: 5px 0;
+}
+
+/* Panel styling */
+.panel {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel-heading {
+  background-color: #2E86AB !important;
+  color: white !important;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Filter section */
+.filter-section {
+  background-color: #F8F9FA;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #E9ECEF;
+}
+
+/* Section headers */
+.section-header {
+  color: #2E86AB;
+  border-bottom: 2px solid #2E86AB;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #343A40;
+  color: white;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: #FFFFFF;
+}
+
+.footer a:hover {
+  color: #2E86AB;
+}
+
+/* Chart containers */
+.chart-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Data table styling */
+.dataTables_wrapper {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+table.dataTable thead th {
+  background-color: #2E86AB;
+  color: white;
+  border-bottom: 2px solid #1B5E78;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: #E3F2FD;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #2E86AB;
+  border-color: #2E86AB;
+}
+
+.btn-primary:hover {
+  background-color: #1B5E78;
+  border-color: #1B5E78;
+}
+
+.btn-success {
+  background-color: #28A745;
+  border-color: #28A745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* Download button styling */
+.download-btn {
+  background-color: #2E86AB;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.download-btn:hover {
+  background-color: #1B5E78;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stat-card h3 {
+    font-size: 22px;
+  }
+
+  .stat-card {
+    margin-bottom: 10px;
+  }
+}
