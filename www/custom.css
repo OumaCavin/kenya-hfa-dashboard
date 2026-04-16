@@ -1,0 +1,241 @@
+/* Custom CSS for CEMA HFA Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #2E86AB 0%, #1a5a7f 100%) !important;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+h1 {
+  color: #2E86AB;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+.panel {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.panel-heading {
+  background-color: #f8f9fa !important;
+  color: #333;
+  font-weight: 600;
+  border-radius: 8px 8px 0 0;
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.stat-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.stat-card h3 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.stat-card h5 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.stat-card h6 {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.chart-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.progress {
+  border-radius: 10px;
+  height: 25px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.btn-primary {
+  background-color: #2E86AB;
+  border-color: #2E86AB;
+}
+
+.btn-primary:hover {
+  background-color: #1a5a7f;
+  border-color: #1a5a7f;
+}
+
+.footer {
+  background-color: #2E86AB;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background-color: #2E86AB;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+/* Leaflet map styling */
+.leaflet-container {
+  border-radius: 10px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E86AB;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a5a7f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stat-card {
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .navbar-brand {
+    font-size: 1.2em;
+  }
+}
+
+/* Animation for loading */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Active tab indicator */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  background-color: rgba(255,255,255,0.2) !important;
+  border-bottom: 3px solid #fff;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+.dropdown-menu > li > a {
+  color: #333;
+  padding: 10px 20px;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #E3F2FD;
+  color: #2E86AB;
+}
+
+/* Info boxes */
+.info-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.info-box.warning {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.info-box.success {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}

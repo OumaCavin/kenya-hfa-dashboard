@@ -1,0 +1,41 @@
+facility_id,facility_name,county,level,ownership,beds,staff_count,latitude,longitude,inpatient,outpatient,maternity,emergency
+F001,Kenyatta National Hospital,Nairobi,Level 6,Public,850,650,-1.2839,36.8172,1,1,1,1
+F002,Mombasa General Hospital,Mombasa,Level 5,Public,320,280,-4.0435,39.6685,1,1,1,1
+F003,Nakuru Provincial Hospital,Nakuru,Level 5,Public,280,250,-0.3031,36.0724,1,1,1,1
+F004,Kisumu Level 5 Hospital,Kisumu,Level 5,Public,250,220,-0.0600,34.7676,1,1,1,1
+F005,Kakamega County Hospital,Kakamega,Level 4,Public,180,150,0.2828,34.7523,1,1,1,1
+F006,Eldoret Referral Hospital,Uasin Gishu,Level 5,Public,300,260,0.5146,35.2696,1,1,1,1
+F007,Garissa Provincial Hospital,Garissa,Level 5,Public,180,120,0.4527,40.1209,1,1,1,1
+F008,Kisii Level 5 Hospital,Kisii,Level 5,Public,200,165,-0.6817,34.7660,1,1,1,1
+F009,Nyeri Provincial Hospital,Nyeri,Level 5,Public,220,180,-0.4197,36.9553,1,1,1,1
+F010,Thika Level 5 Hospital,Kiambu,Level 5,Public,200,160,-1.0334,37.0692,1,1,1,1
+F011,Bungoma County Hospital,Bungoma,Level 4,Public,150,125,0.5635,34.5606,1,1,1,1
+F012,Kericho County Hospital,Kericho,Level 4,Public,140,115,0.3689,35.2859,1,1,1,1
+F013,Machakos Level 5 Hospital,Machakos,Level 4,Public,180,140,-1.5177,37.2634,1,1,1,1
+F014,Kitui County Hospital,Kitui,Level 4,Public,120,95,-1.1412,38.0165,1,1,1,1
+F015,Embu County Hospital,Embu,Level 4,Public,130,100,0.5389,37.5820,1,1,1,1
+F016,Siaya County Hospital,Siaya,Level 4,Public,110,90,0.0602,34.2882,1,1,1,1
+F017,Homa Bay County Hospital,Homa Bay,Level 4,Public,100,85,-0.5273,34.4571,1,1,1,1
+F018,Nyamira County Hospital,Nyamira,Level 4,Public,95,80,0.5635,34.9719,1,1,1,1
+F019,Kirinyaga County Hospital,Kirinyaga,Level 4,Public,105,85,-0.6157,37.3656,1,1,1,1
+F020,Muranga County Hospital,Muranga,Level 4,Public,115,90,-0.7171,37.1437,1,1,1,1
+F021,Nairobi West Health Center,Nairobi,Level 3,Public,60,55,-1.3008,36.8064,1,1,1,1
+F022,Kasarani Health Center,Nairobi,Level 3,Public,50,45,-1.2167,36.9758,1,1,1,1
+F023,Embakasi Health Center,Nairobi,Level 3,Public,55,48,-1.2614,36.9290,1,1,1,1
+F024,Langata Health Center,Nairobi,Level 3,Public,45,40,-1.3478,36.7767,1,1,1,1
+F025,St. Mary's Hospital,Nairobi,Level 4,Private,180,145,-1.2921,36.8219,1,1,1,1
+F026,Aga Khan University Hospital,Nairobi,Level 5,Private,300,280,-1.2673,36.8012,1,1,1,1
+F027,Mater Hospital,Nairobi,Level 4,Private,200,165,-1.3012,36.7798,1,1,1,1
+F028,Nairobi Hospital,Nairobi,Level 5,Private,350,300,-1.2985,36.7598,1,1,1,1
+F029,Mombasa Spine Center,Mombasa,Level 4,Private,80,65,-4.0435,39.6685,1,1,1,1
+F030,Pan Africa Medical Center,Mombasa,Level 3,Private,60,50,-4.0615,39.6505,1,1,1,1
+F031,Mombasa Catholic Hospital,Mombasa,Level 4,FBO,150,120,-4.0435,39.6685,1,1,1,1
+F032,St. Mary's Mombasa,Mombasa,Level 3,FBO,70,55,-4.0515,39.6625,1,1,1,1
+F033,Kisumu St. Lukes Hospital,Kisumu,Level 4,FBO,120,95,-0.0600,34.7676,1,1,1,1
+F034,Nakuru St. Mary's Hospital,Nakuru,Level 4,FBO,130,100,-0.3031,36.0724,1,1,1,1
+F035,Eldoret St. Mary's Hospital,Eldoret,Level 4,FBO,140,110,0.5146,35.2696,1,1,1,1
+F036,Siaya St. Joseph Hospital,Siaya,Level 3,FBO,65,50,0.0602,34.2882,1,1,1,1
+F037,Kakamega St. Mary's Hospital,Kakamega,Level 4,FBO,110,85,0.2828,34.7523,1,1,1,1
+F038,Bungoma St. Mary's Hospital,Bungoma,Level 3,FBO,75,60,0.5635,34.5606,1,1,1,1
+F039,Mediheal Hospital,Nairobi,Level 4,NGO,160,130,-1.2855,36.8200,1,1,1,1
+F040,Migma Medical Center,Nairobi,Level 3,NGO,55,45,-1.2955,36.8055,1,1,1,1

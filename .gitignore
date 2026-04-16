@@ -1,0 +1,33 @@
+# R project files (keep these)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Shiny specific
+packrat/
+renv/
+rsconnect/
+
+# Packages
+packages/
+lib/
