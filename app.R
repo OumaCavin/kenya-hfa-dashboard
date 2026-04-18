@@ -1,10 +1,9 @@
-# CEMA Health Facility Assessment Dashboard - Shiny Application
+# Kenya Health Facility Assessment App - Shiny Application
 # Author: Cavin Otieno
 
 library(shiny)
 library(shinythemes)
 library(plotly)
-library(leaflet)
 library(dplyr)
 library(tidyr)
 library(DT)
@@ -13,8 +12,10 @@ library(DT)
 source("R/data_loader.R")
 source("R/chart_helpers.R")
 source("R/theme.R")
-source("R/summary_module.R")
-source("R/common_components.R")
+source("R/census_module.R")
+source("R/census_server.R")
+source("R/qoc_module.R")
+source("R/qoc_server.R")
 
 # Load data
 source("global.R")
@@ -23,94 +24,23 @@ source("global.R")
 ui <- navbarPage(
   title = div(
     img(src = "moh_logo.png", height = "40px", style = "margin-right: 10px;"),
-    "CEMA Health Facility Assessment"
+    "Kenya Health Facility Assessment"
   ),
   theme = shinytheme("cerulean"),
   collapsible = TRUE,
-  windowTitle = "CEMA Health Facility Assessment Dashboard",
 
-  # Summary Tab
+  # Census Tab
   tabPanel(
-    title = "Summary",
-    icon = icon("home"),
-    summaryTabUI("summary")
-  ),
-
-  # Health Services Dropdown Menu
-  navbarMenu(
-    title = "Health Services",
-    icon = icon("heartbeat"),
-    "--- Primary Health Care ---" = div(style = "text-align: center; color: #666; padding: 5px;", ""),
-    "Outpatient Services" = div(),
-    "Basic Maternity Services" = div(),
-    "Comprehensive Maternity Services" = div(),
-    "Newborn Care Services" = div(),
-    "--- Inpatient Services ---" = div(style = "text-align: center; color: #666; padding: 5px;", ""),
-    "Medical Ward Services" = div(),
-    "Surgical Ward Services" = div(),
-    "Pediatric Ward Services" = div(),
-    "Obstetrics Ward Services" = div(),
-    "--- Specialized Services ---" = div(style = "text-align: center; color: #666; padding: 5px;", ""),
-    "Laboratory Services" = div(),
-    "Radiology Services" = div(),
-    "Pharmacy Services" = div(),
-    "Theatre Services" = div()
-  ),
-
-  # Infrastructure Tab
-  tabPanel(
-    title = "Infrastructure",
+    title = "Kenya Health Facility Census",
     icon = icon("building"),
-    infrastructureTabUI("infrastructure")
+    censusTabUI("census")
   ),
 
-  # Level of Care Tab
+  # QoC Tab
   tabPanel(
-    title = "Level of Care",
-    icon = icon("layer-group"),
-    levelOfCareTabUI("level_of_care")
-  ),
-
-  # Human Resource Tab
-  tabPanel(
-    title = "Human Resource",
-    icon = icon("users"),
-    hrTabUI("hr")
-  ),
-
-  # Equipment Tab
-  tabPanel(
-    title = "Equipment",
-    icon = icon("wrench"),
-    equipmentTabUI("equipment")
-  ),
-
-  # Location Map Tab
-  tabPanel(
-    title = "Location",
-    icon = icon("map-marker-alt"),
-    locationTabUI("location")
-  ),
-
-  # Regulatory Tab
-  tabPanel(
-    title = "Regulatory",
-    icon = icon("balance-scale"),
-    regulatoryTabUI("regulatory")
-  ),
-
-  # Facility Categories Tab
-  tabPanel(
-    title = "Facility Categories",
-    icon = icon("tags"),
-    facilityCategoriesTabUI("facility_categories")
-  ),
-
-  # Assessment Completion Tab
-  tabPanel(
-    title = "Assessment Completion",
-    icon = icon("check-circle"),
-    assessmentTabUI("assessment")
+    title = "Kenya Quality of Care Assessment",
+    icon = icon("heartbeat"),
+    qocTabUI("qoc")
   ),
 
   # Footer
@@ -134,32 +64,11 @@ ui <- navbarPage(
 
 # Define server logic
 server <- function(input, output, session) {
-  # Summary tab server
-  summaryTabServer("summary", census_data, county_list, facility_types, ownership_types)
+  # Census module server
+  censusTabServer("census", census_data, county_list, facility_types)
 
-  # Infrastructure tab server
-  infrastructureTabServer("infrastructure", census_data, county_list)
-
-  # Level of Care tab server
-  levelOfCareTabServer("level_of_care", census_data)
-
-  # Human Resource tab server
-  hrTabServer("hr", census_data, county_list)
-
-  # Equipment tab server
-  equipmentTabServer("equipment", census_data, county_list)
-
-  # Location tab server
-  locationTabServer("location", census_data, county_list)
-
-  # Regulatory tab server
-  regulatoryTabServer("regulatory", census_data, county_list)
-
-  # Facility Categories tab server
-  facilityCategoriesTabServer("facility_categories", census_data, county_list)
-
-  # Assessment tab server
-  assessmentTabServer("assessment", census_data, county_list)
+  # QoC module server
+  qocTabServer("qoc", qoc_data, county_list, quality_indicators)
 }
 
 # Run the application

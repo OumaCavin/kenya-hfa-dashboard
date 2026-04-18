@@ -1,26 +1,24 @@
-# CEMA Health Facility Assessment Dashboard
+# Kenya Health Facility Assessment App
 
-A comprehensive Shiny application for analyzing Kenya Health Facility Census and Quality of Care data.
+A Shiny application for analyzing Kenya Health Facility Census and Quality of Care data.
 
 ## Overview
 
-This dashboard provides comprehensive analysis of health facility data from the Kenya Health Facility Census Assessment and the Quality of Care conducted by the Ministry of Health in August 2023 and March 2024.
+This dashboard contains the analysis of data from the Kenya Health Facility Census Assessment and the Quality of Care conducted by the Ministry of Health in August 2023 and March 2024.
 
 ## Features
 
-- **Summary Dashboard**: Overview statistics and key metrics across all health facilities
-- **Health Services Analysis**: Detailed analysis of 13+ service categories including Primary Health Care, Inpatient, Laboratory, and more
-- **Infrastructure Assessment**: Equipment and infrastructure availability analysis
-- **Human Resource Metrics**: Staffing levels and competency analysis
-- **Interactive Visualizations**: Charts, maps, and tables for data exploration
-- **County-level Analysis**: Filter and analyze data by all 47 Kenyan counties
+- **Health Facility Census Analysis**: View comprehensive census data of health facilities
+- **Quality of Care Assessment**: Analyze quality of care metrics across facilities
+- **Interactive Visualizations**: Charts, tables, and maps for data exploration
+- **Data Filtering**: Filter by county, facility type, and ownership
 - **Export Capabilities**: Download data in CSV format
 
 ## Installation
 
 ```r
 # Clone the repository
-git clone https://github.com/OumaCavin/cema-hfa-dashboard.git
+git clone https://github.com/OumaCavin/kenya-hfa-app.git
 
 # Install dependencies
 renv::restore()
@@ -32,7 +30,7 @@ shiny::runApp()
 ## Project Structure
 
 ```
-cema-hfa-dashboard/
+kenya-hfa-app/
 ├── app.R                 # Main application
 ├── global.R              # Global configurations
 ├── R/                    # Helper functions
@@ -46,7 +44,6 @@ cema-hfa-dashboard/
 - shiny
 - plotly
 - ggplot2
-- leaflet (for maps)
 - dplyr
 - tidyr
 - DT

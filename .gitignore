@@ -1,21 +1,32 @@
-# R project files (keep these)
+# RStudio and R
+*.Rproj
 .Rproj.user/
-.Rhistory
-.RData
-.Ruserdata
+*.RData
+*.Rhistory
+
+# Shiny apps
+rsconnect/
+*.log
+
+# R packages
+renv/
+renv.lock
+
+# Data files (except sample data)
+data/*
+!data/sample_census.csv
+!data/sample_qoc.csv
 
 # Logs
 *.log
-logs/
-
-# Temporary files
-tmp/
-temp/
-*.tmp
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Environment files
+.env
+.env.local
 
 # IDE files
 .vscode/
@@ -23,11 +34,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Shiny specific
-packrat/
-renv/
-rsconnect/
-
-# Packages
-packages/
-lib/
+# Temporary files
+tmp/
+temp/
+*.tmp

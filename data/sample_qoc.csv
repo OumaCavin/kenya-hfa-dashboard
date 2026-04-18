@@ -1,161 +1,105 @@
-facility_id,indicator,score,date_collected,assessor_id
-F001,Infection Control,92,2023-08-15,A001
-F001,Emergency Preparedness,88,2023-08-15,A001
-F001,Pharmacy Services,95,2023-08-16,A001
-F001,Laboratory Services,90,2023-08-16,A001
-F001,Radiology Services,85,2023-08-16,A001
-F001,Inpatient Care,92,2023-08-17,A001
-F001,Outpatient Care,95,2023-08-17,A001
-F001,Surgical Services,90,2023-08-17,A001
-F002,Infection Control,85,2023-08-15,A002
-F002,Emergency Preparedness,80,2023-08-15,A002
-F002,Pharmacy Services,88,2023-08-16,A002
-F002,Laboratory Services,82,2023-08-16,A002
-F002,Radiology Services,75,2023-08-16,A002
-F002,Inpatient Care,85,2023-08-17,A002
-F002,Outpatient Care,88,2023-08-17,A002
-F002,Surgical Services,80,2023-08-17,A002
-F003,Infection Control,78,2023-08-15,A003
-F003,Emergency Preparedness,75,2023-08-15,A003
-F003,Pharmacy Services,82,2023-08-16,A003
-F003,Laboratory Services,78,2023-08-16,A003
-F003,Radiology Services,70,2023-08-16,A003
-F003,Inpatient Care,80,2023-08-17,A003
-F003,Outpatient Care,85,2023-08-17,A003
-F003,Surgical Services,75,2023-08-17,A003
-F004,Infection Control,82,2023-08-15,A004
-F004,Emergency Preparedness,78,2023-08-15,A004
-F004,Pharmacy Services,85,2023-08-16,A004
-F004,Laboratory Services,80,2023-08-16,A004
-F004,Radiology Services,72,2023-08-16,A004
-F004,Inpatient Care,82,2023-08-17,A004
-F004,Outpatient Care,86,2023-08-17,A004
-F004,Surgical Services,78,2023-08-17,A004
-F005,Infection Control,75,2023-08-15,A005
-F005,Emergency Preparedness,70,2023-08-15,A005
-F005,Pharmacy Services,78,2023-08-16,A005
-F005,Laboratory Services,72,2023-08-16,A005
-F005,Radiology Services,65,2023-08-16,A005
-F005,Inpatient Care,75,2023-08-17,A005
-F005,Outpatient Care,80,2023-08-17,A005
-F005,Surgical Services,72,2023-08-17,A005
-F006,Infection Control,85,2023-08-15,A006
-F006,Emergency Preparedness,82,2023-08-15,A006
-F006,Pharmacy Services,88,2023-08-16,A006
-F006,Laboratory Services,85,2023-08-16,A006
-F006,Radiology Services,78,2023-08-16,A006
-F006,Inpatient Care,85,2023-08-17,A006
-F006,Outpatient Care,90,2023-08-17,A006
-F006,Surgical Services,82,2023-08-17,A006
-F007,Infection Control,68,2023-08-15,A007
-F007,Emergency Preparedness,62,2023-08-15,A007
-F007,Pharmacy Services,72,2023-08-16,A007
-F007,Laboratory Services,65,2023-08-16,A007
-F007,Radiology Services,55,2023-08-16,A007
-F007,Inpatient Care,70,2023-08-17,A007
-F007,Outpatient Care,75,2023-08-17,A007
-F007,Surgical Services,65,2023-08-17,A007
-F008,Infection Control,78,2023-08-15,A008
-F008,Emergency Preparedness,75,2023-08-15,A008
-F008,Pharmacy Services,80,2023-08-16,A008
-F008,Laboratory Services,76,2023-08-16,A008
-F008,Radiology Services,68,2023-08-16,A008
-F008,Inpatient Care,78,2023-08-17,A008
-F008,Outpatient Care,82,2023-08-17,A008
-F008,Surgical Services,75,2023-08-17,A008
-F009,Infection Control,80,2023-08-15,A009
-F009,Emergency Preparedness,78,2023-08-15,A009
-F009,Pharmacy Services,84,2023-08-16,A009
-F009,Laboratory Services,80,2023-08-16,A009
-F009,Radiology Services,72,2023-08-16,A009
-F009,Inpatient Care,80,2023-08-17,A009
-F009,Outpatient Care,85,2023-08-17,A009
-F009,Surgical Services,78,2023-08-17,A009
-F010,Infection Control,76,2023-08-15,A010
-F010,Emergency Preparedness,72,2023-08-15,A010
-F010,Pharmacy Services,80,2023-08-16,A010
-F010,Laboratory Services,75,2023-08-16,A010
-F010,Radiology Services,68,2023-08-16,A010
-F010,Inpatient Care,76,2023-08-17,A010
-F010,Outpatient Care,82,2023-08-17,A010
-F010,Surgical Services,74,2023-08-17,A010
-F011,Infection Control,72,2023-08-15,A011
-F011,Emergency Preparedness,68,2023-08-15,A011
-F011,Pharmacy Services,75,2023-08-16,A011
-F011,Laboratory Services,70,2023-08-16,A011
-F011,Radiology Services,62,2023-08-16,A011
-F011,Inpatient Care,72,2023-08-17,A011
-F011,Outpatient Care,78,2023-08-17,A011
-F011,Surgical Services,70,2023-08-17,A011
-F012,Infection Control,70,2023-08-15,A012
-F012,Emergency Preparedness,65,2023-08-15,A012
-F012,Pharmacy Services,72,2023-08-16,A012
-F012,Laboratory Services,68,2023-08-16,A012
-F012,Radiology Services,58,2023-08-16,A012
-F012,Inpatient Care,70,2023-08-17,A012
-F012,Outpatient Care,75,2023-08-17,A012
-F012,Surgical Services,68,2023-08-17,A012
-F013,Infection Control,75,2023-08-15,A013
-F013,Emergency Preparedness,70,2023-08-15,A013
-F013,Pharmacy Services,78,2023-08-16,A013
-F013,Laboratory Services,72,2023-08-16,A013
-F013,Radiology Services,65,2023-08-16,A013
-F013,Inpatient Care,75,2023-08-17,A013
-F013,Outpatient Care,80,2023-08-17,A013
-F013,Surgical Services,72,2023-08-17,A013
-F014,Infection Control,68,2023-08-15,A014
-F014,Emergency Preparedness,62,2023-08-15,A014
-F014,Pharmacy Services,70,2023-08-16,A014
-F014,Laboratory Services,65,2023-08-16,A014
-F014,Radiology Services,55,2023-08-16,A014
-F014,Inpatient Care,68,2023-08-17,A014
-F014,Outpatient Care,72,2023-08-17,A014
-F014,Surgical Services,65,2023-08-17,A014
-F015,Infection Control,72,2023-08-15,A015
-F015,Emergency Preparedness,68,2023-08-15,A015
-F015,Pharmacy Services,75,2023-08-16,A015
-F015,Laboratory Services,70,2023-08-16,A015
-F015,Radiology Services,62,2023-08-16,A015
-F015,Inpatient Care,72,2023-08-17,A015
-F015,Outpatient Care,78,2023-08-17,A015
-F015,Surgical Services,70,2023-08-17,A015
-F016,Infection Control,70,2023-08-15,A016
-F016,Emergency Preparedness,65,2023-08-15,A016
-F016,Pharmacy Services,72,2023-08-16,A016
-F016,Laboratory Services,68,2023-08-16,A016
-F016,Radiology Services,58,2023-08-16,A016
-F016,Inpatient Care,70,2023-08-17,A016
-F016,Outpatient Care,75,2023-08-17,A016
-F016,Surgical Services,68,2023-08-17,A016
-F017,Infection Control,68,2023-08-15,A017
-F017,Emergency Preparedness,62,2023-08-15,A017
-F017,Pharmacy Services,70,2023-08-16,A017
-F017,Laboratory Services,65,2023-08-16,A017
-F017,Radiology Services,55,2023-08-16,A017
-F017,Inpatient Care,68,2023-08-17,A017
-F017,Outpatient Care,72,2023-08-17,A017
-F017,Surgical Services,65,2023-08-17,A017
-F018,Infection Control,65,2023-08-15,A018
-F018,Emergency Preparedness,60,2023-08-15,A018
-F018,Pharmacy Services,68,2023-08-16,A018
-F018,Laboratory Services,62,2023-08-16,A018
-F018,Radiology Services,52,2023-08-16,A018
-F018,Inpatient Care,65,2023-08-17,A018
-F018,Outpatient Care,70,2023-08-17,A018
-F018,Surgical Services,62,2023-08-17,A018
-F019,Infection Control,72,2023-08-15,A019
-F019,Emergency Preparedness,68,2023-08-15,A019
-F019,Pharmacy Services,75,2023-08-16,A019
-F019,Laboratory Services,70,2023-08-16,A019
-F019,Radiology Services,62,2023-08-16,A019
-F019,Inpatient Care,72,2023-08-17,A019
-F019,Outpatient Care,78,2023-08-17,A019
-F019,Surgical Services,70,2023-08-17,A019
-F020,Infection Control,70,2023-08-15,A020
-F020,Emergency Preparedness,65,2023-08-15,A020
-F020,Pharmacy Services,72,2023-08-16,A020
-F020,Laboratory Services,68,2023-08-16,A020
-F020,Radiology Services,58,2023-08-16,A020
-F020,Inpatient Care,70,2023-08-17,A020
-F020,Outpatient Care,75,2023-08-17,A020
-F020,Surgical Services,68,2023-08-17,A020
+# Sample Kenya Quality of Care Assessment Data
+# Generated for demonstration purposes
+# Author: Cavin Otieno
+
+assessment_id,facility_id,indicator,score,date_assessed
+QA001,HF001,Patient Safety,85,2024-03-15
+QA002,HF001,Infection Control,78,2024-03-15
+QA003,HF001,Staff Competency,92,2024-03-16
+QA004,HF001,Equipment Availability,88,2024-03-16
+QA005,HF001,Cleanliness,95,2024-03-17
+QA006,HF002,Patient Safety,90,2024-03-15
+QA007,HF002,Infection Control,85,2024-03-15
+QA008,HF002,Staff Competency,95,2024-03-16
+QA009,HF002,Equipment Availability,92,2024-03-16
+QA010,HF002,Cleanliness,88,2024-03-17
+QA011,HF003,Patient Safety,82,2024-03-18
+QA012,HF003,Infection Control,75,2024-03-18
+QA013,HF003,Staff Competency,85,2024-03-19
+QA014,HF003,Equipment Availability,80,2024-03-19
+QA015,HF003,Cleanliness,78,2024-03-20
+QA016,HF004,Patient Safety,80,2024-03-18
+QA017,HF004,Infection Control,72,2024-03-18
+QA018,HF004,Staff Competency,82,2024-03-19
+QA019,HF004,Equipment Availability,78,2024-03-19
+QA020,HF004,Cleanliness,75,2024-03-20
+QA021,HF005,Patient Safety,78,2024-03-21
+QA022,HF005,Infection Control,70,2024-03-21
+QA023,HF005,Staff Competency,80,2024-03-22
+QA024,HF005,Equipment Availability,75,2024-03-22
+QA025,HF005,Cleanliness,72,2024-03-23
+QA026,HF006,Patient Safety,83,2024-03-21
+QA027,HF006,Infection Control,77,2024-03-21
+QA028,HF006,Staff Competency,85,2024-03-22
+QA029,HF006,Equipment Availability,82,2024-03-22
+QA030,HF006,Cleanliness,80,2024-03-23
+QA031,HF007,Patient Safety,75,2024-03-24
+QA032,HF007,Infection Control,68,2024-03-24
+QA033,HF007,Staff Competency,78,2024-03-25
+QA034,HF007,Equipment Availability,72,2024-03-25
+QA035,HF007,Cleanliness,70,2024-03-26
+QA036,HF008,Patient Safety,65,2024-03-24
+QA037,HF008,Infection Control,58,2024-03-24
+QA038,HF008,Staff Competency,70,2024-03-25
+QA039,HF008,Equipment Availability,62,2024-03-25
+QA040,HF008,Cleanliness,60,2024-03-26
+QA041,HF009,Patient Safety,77,2024-03-27
+QA042,HF009,Infection Control,71,2024-03-27
+QA043,HF009,Staff Competency,80,2024-03-28
+QA044,HF009,Equipment Availability,75,2024-03-28
+QA045,HF009,Cleanliness,73,2024-03-29
+QA046,HF010,Patient Safety,85,2024-03-27
+QA047,HF010,Infection Control,80,2024-03-27
+QA048,HF010,Staff Competency,88,2024-03-28
+QA049,HF010,Equipment Availability,85,2024-03-28
+QA050,HF010,Cleanliness,82,2024-03-29
+QA051,HF011,Patient Safety,88,2024-03-30
+QA052,HF011,Infection Control,85,2024-03-30
+QA053,HF011,Staff Competency,90,2024-03-31
+QA054,HF011,Equipment Availability,88,2024-03-31
+QA055,HF011,Cleanliness,92,2024-04-01
+QA056,HF012,Patient Safety,95,2024-03-30
+QA057,HF012,Infection Control,92,2024-03-30
+QA058,HF012,Staff Competency,98,2024-03-31
+QA059,HF012,Equipment Availability,95,2024-03-31
+QA060,HF012,Cleanliness,93,2024-04-01
+QA061,HF013,Patient Safety,82,2024-04-01
+QA062,HF013,Infection Control,78,2024-04-01
+QA063,HF013,Staff Competency,85,2024-04-02
+QA064,HF013,Equipment Availability,82,2024-04-02
+QA065,HF013,Cleanliness,80,2024-04-03
+QA066,HF014,Patient Safety,78,2024-04-01
+QA067,HF014,Infection Control,75,2024-04-01
+QA068,HF014,Staff Competency,82,2024-04-02
+QA069,HF014,Equipment Availability,78,2024-04-02
+QA070,HF014,Cleanliness,75,2024-04-03
+QA071,HF015,Patient Safety,90,2024-04-03
+QA072,HF015,Infection Control,88,2024-04-03
+QA073,HF015,Staff Competency,92,2024-04-04
+QA074,HF015,Equipment Availability,90,2024-04-04
+QA075,HF015,Cleanliness,88,2024-04-05
+QA076,HF016,Patient Safety,65,2024-04-04
+QA077,HF016,Infection Control,58,2024-04-04
+QA078,HF016,Staff Competency,68,2024-04-05
+QA079,HF016,Equipment Availability,60,2024-04-05
+QA080,HF016,Cleanliness,62,2024-04-06
+QA081,HF017,Patient Safety,60,2024-04-04
+QA082,HF017,Infection Control,55,2024-04-04
+QA083,HF017,Staff Competency,65,2024-04-05
+QA084,HF017,Equipment Availability,58,2024-04-05
+QA085,HF017,Cleanliness,55,2024-04-06
+QA086,HF018,Patient Safety,68,2024-04-06
+QA087,HF018,Infection Control,62,2024-04-06
+QA088,HF018,Staff Competency,70,2024-04-07
+QA089,HF018,Equipment Availability,65,2024-04-07
+QA090,HF018,Cleanliness,60,2024-04-08
+QA091,HF019,Patient Safety,58,2024-04-06
+QA092,HF019,Infection Control,52,2024-04-06
+QA093,HF019,Staff Competency,62,2024-04-07
+QA094,HF019,Equipment Availability,55,2024-04-07
+QA095,HF019,Cleanliness,50,2024-04-08
+QA096,HF020,Patient Safety,70,2024-04-08
+QA097,HF020,Infection Control,65,2024-04-08
+QA098,HF020,Staff Competency,72,2024-04-09
+QA099,HF020,Equipment Availability,68,2024-04-09
+QA100,HF020,Cleanliness,65,2024-04-10

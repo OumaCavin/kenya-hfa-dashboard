@@ -1,4 +1,4 @@
-# Data loading utilities for CEMA HFA Dashboard
+# Data loading utilities for Kenya HFA App
 # Author: Cavin Otieno
 
 #' Load census data from CSV file
@@ -27,6 +27,19 @@ get_census_summary <- function(data) {
     fbo_facilities = sum(data$ownership == "FBO"),
     total_beds = sum(data$beds, na.rm = TRUE),
     total_staff = sum(data$staff_count, na.rm = TRUE)
+  )
+}
+
+#' Get summary statistics for QoC data
+#' @param data QoC tibble
+#' @return List of summary statistics
+get_qoc_summary <- function(data) {
+  list(
+    total_assessments = nrow(data),
+    total_facilities = length(unique(data$facility_id)),
+    avg_score = mean(data$score, na.rm = TRUE),
+    facilities_above_80 = sum(data$score >= 80, na.rm = TRUE),
+    facilities_below_50 = sum(data$score < 50, na.rm = TRUE)
   )
 }
 

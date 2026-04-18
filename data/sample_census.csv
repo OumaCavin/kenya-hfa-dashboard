@@ -1,41 +1,80 @@
-facility_id,facility_name,county,level,ownership,beds,staff_count,latitude,longitude,inpatient,outpatient,maternity,emergency
-F001,Kenyatta National Hospital,Nairobi,Level 6,Public,850,650,-1.2839,36.8172,1,1,1,1
-F002,Mombasa General Hospital,Mombasa,Level 5,Public,320,280,-4.0435,39.6685,1,1,1,1
-F003,Nakuru Provincial Hospital,Nakuru,Level 5,Public,280,250,-0.3031,36.0724,1,1,1,1
-F004,Kisumu Level 5 Hospital,Kisumu,Level 5,Public,250,220,-0.0600,34.7676,1,1,1,1
-F005,Kakamega County Hospital,Kakamega,Level 4,Public,180,150,0.2828,34.7523,1,1,1,1
-F006,Eldoret Referral Hospital,Uasin Gishu,Level 5,Public,300,260,0.5146,35.2696,1,1,1,1
-F007,Garissa Provincial Hospital,Garissa,Level 5,Public,180,120,0.4527,40.1209,1,1,1,1
-F008,Kisii Level 5 Hospital,Kisii,Level 5,Public,200,165,-0.6817,34.7660,1,1,1,1
-F009,Nyeri Provincial Hospital,Nyeri,Level 5,Public,220,180,-0.4197,36.9553,1,1,1,1
-F010,Thika Level 5 Hospital,Kiambu,Level 5,Public,200,160,-1.0334,37.0692,1,1,1,1
-F011,Bungoma County Hospital,Bungoma,Level 4,Public,150,125,0.5635,34.5606,1,1,1,1
-F012,Kericho County Hospital,Kericho,Level 4,Public,140,115,0.3689,35.2859,1,1,1,1
-F013,Machakos Level 5 Hospital,Machakos,Level 4,Public,180,140,-1.5177,37.2634,1,1,1,1
-F014,Kitui County Hospital,Kitui,Level 4,Public,120,95,-1.1412,38.0165,1,1,1,1
-F015,Embu County Hospital,Embu,Level 4,Public,130,100,0.5389,37.5820,1,1,1,1
-F016,Siaya County Hospital,Siaya,Level 4,Public,110,90,0.0602,34.2882,1,1,1,1
-F017,Homa Bay County Hospital,Homa Bay,Level 4,Public,100,85,-0.5273,34.4571,1,1,1,1
-F018,Nyamira County Hospital,Nyamira,Level 4,Public,95,80,0.5635,34.9719,1,1,1,1
-F019,Kirinyaga County Hospital,Kirinyaga,Level 4,Public,105,85,-0.6157,37.3656,1,1,1,1
-F020,Muranga County Hospital,Muranga,Level 4,Public,115,90,-0.7171,37.1437,1,1,1,1
-F021,Nairobi West Health Center,Nairobi,Level 3,Public,60,55,-1.3008,36.8064,1,1,1,1
-F022,Kasarani Health Center,Nairobi,Level 3,Public,50,45,-1.2167,36.9758,1,1,1,1
-F023,Embakasi Health Center,Nairobi,Level 3,Public,55,48,-1.2614,36.9290,1,1,1,1
-F024,Langata Health Center,Nairobi,Level 3,Public,45,40,-1.3478,36.7767,1,1,1,1
-F025,St. Mary's Hospital,Nairobi,Level 4,Private,180,145,-1.2921,36.8219,1,1,1,1
-F026,Aga Khan University Hospital,Nairobi,Level 5,Private,300,280,-1.2673,36.8012,1,1,1,1
-F027,Mater Hospital,Nairobi,Level 4,Private,200,165,-1.3012,36.7798,1,1,1,1
-F028,Nairobi Hospital,Nairobi,Level 5,Private,350,300,-1.2985,36.7598,1,1,1,1
-F029,Mombasa Spine Center,Mombasa,Level 4,Private,80,65,-4.0435,39.6685,1,1,1,1
-F030,Pan Africa Medical Center,Mombasa,Level 3,Private,60,50,-4.0615,39.6505,1,1,1,1
-F031,Mombasa Catholic Hospital,Mombasa,Level 4,FBO,150,120,-4.0435,39.6685,1,1,1,1
-F032,St. Mary's Mombasa,Mombasa,Level 3,FBO,70,55,-4.0515,39.6625,1,1,1,1
-F033,Kisumu St. Lukes Hospital,Kisumu,Level 4,FBO,120,95,-0.0600,34.7676,1,1,1,1
-F034,Nakuru St. Mary's Hospital,Nakuru,Level 4,FBO,130,100,-0.3031,36.0724,1,1,1,1
-F035,Eldoret St. Mary's Hospital,Eldoret,Level 4,FBO,140,110,0.5146,35.2696,1,1,1,1
-F036,Siaya St. Joseph Hospital,Siaya,Level 3,FBO,65,50,0.0602,34.2882,1,1,1,1
-F037,Kakamega St. Mary's Hospital,Kakamega,Level 4,FBO,110,85,0.2828,34.7523,1,1,1,1
-F038,Bungoma St. Mary's Hospital,Bungoma,Level 3,FBO,75,60,0.5635,34.5606,1,1,1,1
-F039,Mediheal Hospital,Nairobi,Level 4,NGO,160,130,-1.2855,36.8200,1,1,1,1
-F040,Migma Medical Center,Nairobi,Level 3,NGO,55,45,-1.2955,36.8055,1,1,1,1
+# Sample Kenya Health Facility Census Data
+# Generated for demonstration purposes
+# Author: Cavin Otieno
+
+facility_id,facility_name,county,facility_type,ownership,beds,staff_count,date_collected
+HF001,Nairobi West Hospital,Nairobi,Hospital,Public,200,450,2023-08-15
+HF002,Kenyatta National Hospital,Nairobi,Hospital,Public,500,1200,2023-08-16
+HF003,Mombasa General Hospital,Mombasa,Hospital,Public,350,800,2023-08-17
+HF004,Kisumu Level 5 Hospital,Kisumu,Hospital,Public,300,650,2023-08-18
+HF005,Eldoret Referral Hospital,Uasin Gishu,Hospital,Public,280,600,2023-08-19
+HF006,Nakuru Level 5 Hospital,Nakuru,Hospital,Public,250,550,2023-08-20
+HF007,Kakamega Level 5 Hospital,Kakamega,Hospital,Public,220,480,2023-08-21
+HF008,Garissa Provincial Hospital,Garissa,Hospital,Public,180,400,2023-08-22
+HF009,Kisii Level 5 Hospital,Kisii,Hospital,Public,200,450,2023-08-23
+HF010,Nyeri Referral Hospital,Nyeri,Hospital,Public,250,520,2023-08-24
+HF011,St. Mary's Mission Hospital,Nairobi,Hospital,FBO,150,350,2023-08-15
+HF012,Aga Khan University Hospital,Nairobi,Hospital,Private,400,900,2023-08-15
+HF013,Metropolitan Hospital,Nairobi,Hospital,Private,180,400,2023-08-16
+HF014,Jamia Hospital,Nairobi,Hospital,Private,120,280,2023-08-17
+HF015,Karen Hospital,Nairobi,Hospital,Private,100,250,2023-08-18
+HF016,Kasarani Health Center,Nairobi,Health Center,Public,40,50,2023-08-19
+HF017,Kangemi Health Center,Nairobi,Health Center,Public,30,40,2023-08-20
+HF018,Kayole Health Center,Nairobi,Health Center,Public,35,45,2023-08-21
+HF019,Mathare Health Center,Nairobi,Health Center,Public,25,35,2023-08-22
+HF020,Ruiru Health Center,Kiambu,Health Center,Public,45,55,2023-08-23
+HF021,Rift Valley Provincial Hospital,Nakuru,Hospital,Public,275,580,2023-08-24
+HF022,Kitale District Hospital,Trans Nzoia,Hospital,Public,200,450,2023-08-25
+HF023,Kakamega Central Health Center,Kakamega,Health Center,Public,30,38,2023-08-26
+HF024,Mumias Health Center,Kakamega,Health Center,Public,25,32,2023-08-27
+HF025,Kisumu East Health Center,Kisumu,Health Center,Public,40,48,2023-08-28
+HF026,St. Mary's Health Center,Kisumu,Health Center,FBO,20,25,2023-08-29
+HF027,Siaya County Hospital,Siaya,Hospital,Public,180,380,2023-08-30
+HF028,Homa Bay County Hospital,Homa Bay,Hospital,Public,160,350,2023-08-31
+HF029,Migori County Hospital,Migori,Hospital,Public,170,360,2023-09-01
+HF030,Nyamira County Hospital,Nyamira,Hospital,Public,140,300,2023-09-02
+HF031,Bungoma County Hospital,Bungoma,Hospital,Public,190,420,2023-09-03
+HF032,Busia County Hospital,Busia,Hospital,Public,160,340,2023-09-04
+HF033,Kwale District Hospital,Kwale,Hospital,Public,130,280,2023-09-05
+HF034,Kilifi County Hospital,Kilifi,Hospital,Public,175,370,2023-09-06
+HF035,Tana River County Hospital,Tana River,Hospital,Public,100,220,2023-09-07
+HF036,Lamu County Hospital,Lamu,Hospital,Public,90,200,2023-09-08
+HF037,Taita Taveta County Hospital,Taita Taveta,Hospital,Public,110,240,2023-09-09
+HF038,Vihiga County Hospital,Vihiga,Hospital,Public,130,280,2023-09-10
+HF039,Nandi County Hospital,Nandi,Hospital,Public,125,270,2023-09-11
+HF040,Kericho County Hospital,Kericho,Hospital,Public,140,300,2023-09-12
+HF041,Bomet County Hospital,Bomet,Hospital,Public,120,260,2023-09-13
+HF042,Laikipia County Hospital,Laikipia,Hospital,Public,100,220,2023-09-14
+HF043,Nyandarua County Hospital,Nyandarua,Hospital,Public,95,210,2023-09-15
+HF044,Kirinyaga County Hospital,Kirinyaga,Hospital,Public,110,240,2023-09-16
+HF045,Embu County Hospital,Embu,Hospital,Public,120,260,2023-09-17
+HF046,Tharaka Nithi County Hospital,Tharaka Nithi,Hospital,Public,90,200,2023-09-18
+HF047,Meru County Hospital,Meru,Hospital,Public,150,320,2023-09-19
+HF048,Marsabit County Hospital,Marsabit,Hospital,Public,80,180,2023-09-20
+HF049,Isiolo County Hospital,Isiolo,Hospital,Public,70,160,2023-09-21
+HF050,Wajir County Hospital,Wajir,Hospital,Public,85,190,2023-09-22
+HF051,Mandera County Hospital,Mandera,Hospital,Public,90,200,2023-09-23
+HF052,Samburu County Hospital,Samburu,Hospital,Public,75,170,2023-09-24
+HF053,Turkana County Hospital,Turkana,Hospital,Public,100,220,2023-09-25
+HF054,West Pokot County Hospital,West Pokot,Hospital,Public,80,180,2023-09-26
+HF055,Elgeyo Marakwet County Hospital,Elgeyo Marakwet,Hospital,Public,85,190,2023-09-27
+HF056,Kajiado County Hospital,Kajiado,Hospital,Public,90,200,2023-09-28
+HF057,Narok County Hospital,Narok,Hospital,Public,95,210,2023-09-29
+HF058,Kiambu Level 5 Hospital,Kiambu,Hospital,Public,180,390,2023-09-30
+HF059,Machakos Level 5 Hospital,Machakos,Hospital,Public,200,430,2023-10-01
+HF060,Makueni County Hospital,Makueni,Hospital,Public,110,240,2023-10-02
+HF061,Nairobi South Hospital,Nairobi,Hospital,Private,200,450,2023-10-03
+HF062,MP Shah Hospital,Nairobi,Hospital,Private,300,680,2023-10-04
+HF063,Nairobi Hospital,Nairobi,Hospital,Private,350,780,2023-10-05
+HF064,Gertrude's Children's Hospital,Nairobi,Hospital,Private,150,340,2023-10-06
+HF065,Sarit Debra Health Center,Nairobi,Health Center,Private,20,30,2023-10-07
+HF066,Kenyatta Market Health Center,Nairobi,Health Center,Public,25,35,2023-10-08
+HF067,Utawala Health Center,Nairobi,Health Center,Public,30,40,2023-10-09
+HF068,Baba Dogo Health Center,Nairobi,Health Center,Public,20,28,2023-10-10
+HF069,Korogocho Health Center,Nairobi,Health Center,Public,25,32,2023-10-11
+HF070,Githurai Health Center,Nairobi,Health Center,Public,30,38,2023-10-12
+HF071,St. Mary's Mission Hospital 2,Mombasa,Hospital,FBO,120,280,2023-10-13
+HF072,Coptic Hospital,Nairobi,Hospital,FBO,140,310,2023-10-14
+HF073,St. Luke's Hospital,Eldoret,Hospital,FBO,130,290,2023-10-15
+HF074,Krishna Mission Hospital,Mombasa,Hospital,FBO,100,230,2023-10-16
+HF075,Nairobi East Hospital,Nairobi,Hospital,Private,160,360,2023-10-17

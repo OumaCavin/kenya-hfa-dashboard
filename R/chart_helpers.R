@@ -1,4 +1,4 @@
-# Chart helper functions for CEMA HFA Dashboard
+# Chart helper functions for Kenya HFA App
 # Author: Cavin Otieno
 
 #' Create facility type distribution pie chart
@@ -69,6 +69,18 @@ create_beds_histogram <- function(data) {
            yaxis = list(title = "Frequency"))
 }
 
+#' Create quality score distribution histogram
+#' @param data QoC tibble
+#' @return plotly histogram
+create_qoc_score_histogram <- function(data) {
+  plot_ly(data, x = ~score, type = "histogram",
+          marker = list(color = "#2E86AB"),
+          nbinsx = 20) %>%
+    layout(title = "Quality Score Distribution",
+           xaxis = list(title = "Quality Score"),
+           yaxis = list(title = "Frequency"))
+}
+
 #' Create quality indicator comparison bar chart
 #' @param data QoC tibble
 #' @return plotly bar chart
@@ -87,4 +99,24 @@ create_indicator_comparison <- function(data) {
            xaxis = list(title = "Average Score"),
            yaxis = list(title = "Indicator"),
            margin = list(l = 200))
+}
+
+#' Create facility performance scatter plot
+#' @param census_data Census tibble
+#' @param qoc_data QoC tibble
+#' @return plotly scatter plot
+create_performance_scatter <- function(census_data, qoc_data) {
+  facility_scores <- qoc_data %>%
+    group_by(facility_id) %>%
+    summarise(avg_score = mean(score, na.rm = TRUE))
+
+  merged <- merge(census_data, facility_scores, by = "facility_id")
+
+  plot_ly(merged, x = ~beds, y = ~avg_score, color = ~ownership,
+          type = "scatter", mode = "markers",
+          text = ~paste(facility_name, "<br>Beds:", beds, "<br>Score:", round(avg_score, 1)),
+          hoverinfo = "text") %>%
+    layout(title = "Facility Size vs Quality Score",
+           xaxis = list(title = "Number of Beds"),
+           yaxis = list(title = "Average Quality Score"))
 }

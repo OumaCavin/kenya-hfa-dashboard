@@ -1,4 +1,4 @@
-# Custom theme definitions for CEMA HFA Dashboard
+# Custom theme definitions for Kenya HFA App
 # Author: Cavin Otieno
 
 # Define custom color palette
@@ -60,4 +60,9 @@ hfa_section_header <- function(title, icon = NULL) {
     if (!is.null(icon)) icon,
     tags$h4(title, style = "display: inline; margin-left: 10px;")
   )
+}
+
+# Filter panel component
+hfa_filter_panel <- function(id, label, choices, selected = "All") {
+  selectInput(inputId = id, label = label, choices = choices, selected = selected)
 }
