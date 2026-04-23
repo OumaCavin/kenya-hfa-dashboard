@@ -41,7 +41,7 @@ summaryTabUI <- function(id) {
 
       tags$hr(),
 
-      h3("Service Readiness Overview", icon("chart-line"), style = "margin: 30px 0 20px;"),
+      h3("Service Readiness Overview", style = "margin: 30px 0 20px;"),
 
       div(
         class = "row",
@@ -50,27 +50,24 @@ summaryTabUI <- function(id) {
                 h5("Outpatient Services"),
                 tags$div(class = "progress", style = "height: 20px;",
                          tags$div(class = "progress-bar bg-primary", style = "width: 91%;", "91%"),
-                         tags$div(class = "progress-bar bg-success", style = "width: 7%;", "7%"))),
-                p("11,213 offer, 800 ready"))),
+                         tags$div(class = "progress-bar bg-success", style = "width: 7%;", "7%")))),
         div(class = "col-md-4",
             div(class = "panel panel-default",
                 h5("Basic Maternity Services"),
                 tags$div(class = "progress", style = "height: 20px;",
                          tags$div(class = "progress-bar bg-primary", style = "width: 40%;", "40%"),
-                         tags$div(class = "progress-bar bg-success", style = "width: 18%;", "18%"))),
-                p("4,960 offer, 889 ready"))),
+                         tags$div(class = "progress-bar bg-success", style = "width: 18%;", "18%")))),
         div(class = "col-md-4",
             div(class = "panel panel-default",
                 h5("Comprehensive Maternity"),
                 tags$div(class = "progress", style = "height: 20px;",
                          tags$div(class = "progress-bar bg-primary", style = "width: 7%;", "7%"),
-                         tags$div(class = "progress-bar bg-success", style = "width: 28%;", "28%"))),
-                p("902 offer, 252 ready")))
+                         tags$div(class = "progress-bar bg-success", style = "width: 28%;", "28%"))))
       ),
 
       tags$hr(),
 
-      h3("Facility Distribution", icon("chart-pie"), style = "margin: 30px 0 20px;"),
+      h3("Facility Distribution", style = "margin: 30px 0 20px;"),
 
       div(
         class = "row",
@@ -98,7 +95,7 @@ summaryTabUI <- function(id) {
   )
 }
 
-#' Summary Tab Server Module
+# Summary Tab Server Module
 summaryTabServer <- function(id, census_data, county_list, facility_types, ownership_types) {
   moduleServer(id, function(input, output, session) {
     ns <- session$ns
